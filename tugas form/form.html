@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   
+</head>
+<body>
+    <h1 style="text-align: center;">Student Registration Form</h1>
+    <div style="margin-left: 902px;">
+        <label>Date</label>
+        <input type="date">
+    </div>
+    <br>
+
+    <form action="#">
+        <table width='60%' cellpadding='2'  cellspacing='2' align='center'>    
+            <tr>
+                <td  colspan="4" bgcolor=Gainsboro><center><b>PERSONAL INFORMATION</b></center></td>
+            </tr>       
+            <tr>
+                <td>NAME</td>
+                <td><input type="text" name="naem" size="40" maxlength="50"></td>
+            </tr>
+            <tr>
+                <td>DATE OF BIRTH</td>
+                <td><input type="date" name="date" style="width: 309px;"></td>
+            </tr>
+            <tr>
+                <td colspan="4" bgcolor=Gainsboro><center><b>CONTACT INFORMATION</b></center></td>
+            </tr>
+            <tr>
+                <td>ADDRESS</td>
+                <td><input type="text" name="" size="40" maxlength="50"></td>
+            </tr>
+            <tr>
+                <td>CITY</td>
+                <td><input type="text" name="" size="40" maxlength="50"></td>
+                <td>PROVINCE/STATE</td>
+                <td><input type="text" name="" size="40" maxlength="50"></td>
+            </tr>
+            <tr>
+                <td>ZIP CODE</td>
+                <td><input type="number" name="" style="width: 309px;"></td>
+                <td>COUNTRY</td>
+                <td><input type="text" name="" size="40" maxlength="50"></td>
+            </tr>
+            <tr>
+                <td>PHONE</td>
+                <td><input type="tel" name="" size="40" maxlength="50" pattern="[0-9]{4}-[0-9]{4}-[0-9]{4}"></td>
+                <td>EMAIL</td>
+                <td><input type="email" name="" size="40" maxlength="50"></td>
+            </tr>
+            <tr>
+                <td>MEMBERSHIP TYPE</td>
+                <td>
+                    <input type="radio" name="member" value="Regular">Regular
+                    <input type="radio" name="member" value="Premium">Premium
+                    <input type="radio" name="member" value="vip">VIP
+                </td>
+            </tr>
+            <tr>
+                <td  colspan="4" bgcolor=Gainsboro><center><b>COURSE INFORMATION</b></center></td>
+            </tr>
+            <tr>
+                <td>COURSE NAME</td>
+                <td><input type="text" name="" size="40" maxlength="50"></td>
+            </tr>
+            <tr>
+                <td>PAYMENT DETAILS</td>
+                <td>
+                    <input type="radio" name="paymen" value="cash">Cash
+                    <input type="radio" name="paymen" value="cheque">Cheque
+                    <input type="radio" name="paymen" value="credit">Cradit Card  
+                </td>
+            </tr>
+            <tr>
+                <td>COMMENT</td>
+                <td><textarea name="" id="" cols="30" rows="10"></textarea></td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center">
+                    <input type="submit" value="Proses">
+                    <input type="reset" value="Batal">
+                </td>
+            </tr>
+        </table>
+
+    </form>
+</body>
+</html>
