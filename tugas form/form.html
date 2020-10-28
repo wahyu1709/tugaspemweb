@@ -3,21 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-   
+    <title>Form Registrasi</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            width: 60%;
+            padding: 2px;
+            border-spacing: 2px;
+            margin: auto;
+        }
+        h1{
+            text-align: center;
+        }
+        .date{
+            margin-left: 70%;
+        }
+        .judul{
+            background-color: gainsboro;
+            text-align: center;
+        }
+    </style>
 </head>
 <body>
-    <h1 style="text-align: center;">Student Registration Form</h1>
-    <div style="margin-left: 902px;">
+    <h1>Student Registration Form</h1>
+    <div class="date">
         <label>Date</label>
         <input type="date">
     </div>
     <br>
 
     <form action="#">
-        <table width='60%' cellpadding='2'  cellspacing='2' align='center'>    
+        <table >    
             <tr>
-                <td  colspan="4" bgcolor=Gainsboro><center><b>PERSONAL INFORMATION</b></center></td>
+                <td class="judul" colspan="4"><b>PERSONAL INFORMATION</b></td>
             </tr>       
             <tr>
                 <td>NAME</td>
@@ -28,7 +48,7 @@
                 <td><input type="date" name="date" style="width: 309px;"></td>
             </tr>
             <tr>
-                <td colspan="4" bgcolor=Gainsboro><center><b>CONTACT INFORMATION</b></center></td>
+                <td class="judul" colspan="4"><b>CONTACT INFORMATION</b></td>
             </tr>
             <tr>
                 <td>ADDRESS</td>
@@ -61,7 +81,7 @@
                 </td>
             </tr>
             <tr>
-                <td  colspan="4" bgcolor=Gainsboro><center><b>COURSE INFORMATION</b></center></td>
+                <td class="judul" colspan="4" ><b>COURSE INFORMATION</b></td>
             </tr>
             <tr>
                 <td>COURSE NAME</td>
@@ -77,14 +97,14 @@
             </tr>
             <tr>
                 <td>COMMENT</td>
-                <td><textarea name="comment" id="" cols="30" rows="5"></textarea></td>
+                <td><textarea name="comment" cols="30" rows="5"></textarea></td>
             </tr>
             <tr>
-                <td colspan="2" align="center"><textarea name="signature" id="" cols="30" rows="5" placeholder="STUDENT'S SIGNATURE"></textarea></td>
-                <td colspan="2" align="center"><textarea name="validate" id="" cols="30" rows="5" placeholder="VALIDATE BY"></textarea></td>
+                <td colspan="2" style="text-align: center;"><textarea name="signature" cols="30" rows="5" placeholder="STUDENT'S SIGNATURE"></textarea></td>
+                <td colspan="2" style="text-align: center;"><textarea name="validate" cols="30" rows="5" placeholder="VALIDATE BY"></textarea></td>
             </tr>
             <tr>
-                <td colspan="2" align="center">
+                <td colspan="2" style="text-align: center;">
                     <input type="submit" value="Proses">
                     <input type="reset" value="Batal">
                 </td>
