@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Form Registrasi</title>
+    <title>Document</title>
     <style>
         body{
             font-family: Arial, Helvetica, sans-serif;
@@ -35,24 +35,24 @@
     <br>
 
     <form action="#">
-        <table >    
+        <table>    
             <tr>
                 <td class="judul" colspan="4"><b>PERSONAL INFORMATION</b></td>
             </tr>       
             <tr>
                 <td>NAME</td>
-                <td><input type="text" name="name" size="40" maxlength="50"></td>
+                <td colspan="3"><input type="text" name="name" size="40" maxlength="50"></td>
             </tr>
             <tr>
                 <td>DATE OF BIRTH</td>
-                <td><input type="date" name="date" style="width: 309px;"></td>
+                <td colspan="3"><input type="date" name="date" style="width: 309px;"></td>
             </tr>
             <tr>
                 <td class="judul" colspan="4"><b>CONTACT INFORMATION</b></td>
             </tr>
             <tr>
                 <td>ADDRESS</td>
-                <td><input type="text" name="address" size="40" maxlength="50"></td>
+                <td colspan="3"><input type="text" name="address" size="40" maxlength="50"></td>
             </tr>
             <tr>
                 <td>CITY</td>
@@ -74,7 +74,7 @@
             </tr>
             <tr>
                 <td>MEMBERSHIP TYPE</td>
-                <td>
+                <td colspan="3">
                     <input type="radio" name="member" value="Regular">Regular
                     <input type="radio" name="member" value="Premium">Premium
                     <input type="radio" name="member" value="vip">VIP
@@ -85,11 +85,11 @@
             </tr>
             <tr>
                 <td>COURSE NAME</td>
-                <td><input type="text" name="course" size="40" maxlength="50"></td>
+                <td colspan="3"><input type="text" name="course" size="40" maxlength="50"></td>
             </tr>
             <tr>
                 <td>PAYMENT DETAILS</td>
-                <td>
+                <td colspan="3">
                     <input type="radio" name="paymen" value="cash">Cash
                     <input type="radio" name="paymen" value="cheque">Cheque
                     <input type="radio" name="paymen" value="credit">Cradit Card  
@@ -97,20 +97,19 @@
             </tr>
             <tr>
                 <td>COMMENT</td>
-                <td><textarea name="comment" cols="30" rows="5"></textarea></td>
+                <td colspan="3"><textarea name="comment" cols="30" rows="5"></textarea></td>
             </tr>
             <tr>
                 <td colspan="2" style="text-align: center;"><textarea name="signature" cols="30" rows="5" placeholder="STUDENT'S SIGNATURE"></textarea></td>
                 <td colspan="2" style="text-align: center;"><textarea name="validate" cols="30" rows="5" placeholder="VALIDATE BY"></textarea></td>
             </tr>
             <tr>
-                <td colspan="2" style="text-align: center;">
+                <td colspan="4" style="text-align: center;">
                     <input type="submit" value="Proses">
                     <input type="reset" value="Batal">
                 </td>
             </tr>
         </table>
-
     </form>
 </body>
 </html>
