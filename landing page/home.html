@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        body{
+            padding: 0;
+            margin: 0;
+            background-color: #00d8d6;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+       ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        li a:hover:not(.active) {
+            background-color: #111;
+        }
+        .logo{
+            margin: auto;
+            display: block;
+        }
+        #home{
+            padding: 10px;
+        }
+        #cabang{
+            padding: 10px;
+        }
+        p{
+            font-size: 20px;
+        }
+        .imgcaf{
+            width: 380px;
+            height: 227px;
+        }
+        .column {
+            float: left;
+            width: 33.33%;
+            padding: 5px;
+        }
+        .row::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+    </style>
+</head>
+<body>     
+    <header>
+        <img class="logo" src="img/logo.png" alt="logo">
+    </header>
+    <nav>        
+            <ul>
+                <li><a href="home.html">Home</a></li>                
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="contact.html">Contact</a></li>   
+            </ul>        
+    </nav>
+
+    <section id="home">
+        <h1>Selamat Datang di Coffee Mix</h1>
+       <p>Coffee Mix adalah adalah sebuah kedai kopi di Depok yang didedikasikan untuk menyediakan kopi khas Indonesia dengan kualitas terbaik. Kopi khas Indonesia ini tersebar dari Sabang hingga Merauke, dan setiap daerah memiliki cita rasa yang unik.</p>
+       <p></p>
+    </section>
+    
+      <h2>Daftar Cabang</h2>
+        <p>Saat ini cabang kami sudah tersebar dibeberapa daerah seperti :</p>
+    <div class="row">
+        <div class="column">
+            <img src="img/cb1.jpg" alt="cafe1" class="imgcaf">
+            <h2>Depok</h2>
+        </div>
+        <div class="column">
+            <img src="img/cb2.jpg" alt="cafe2" class="imgcaf">
+            <h2>Jakarta</h2>
+        </div>
+        <div class="column">
+            <img src="img/cb3.jpg" alt="cafe3" class="imgcaf">
+            <h2>Bandung</h2>
+        </div>
+        <div class="column">
+            <img src="img/cafe1.jpeg" alt="cafe4" class="imgcaf">
+            <h2>Semarang</h2>
+          </div>
+          <div class="column">
+            <img src="img/cafe2.jpeg" alt="cafe5" class="imgcaf">
+            <h2>Surabaya</h2>
+          </div>
+          <div class="column">
+            <img src="img/cafe3.jpg" alt="cafe6" class="imgcaf">
+            <h2>Bogor</h2>
+          </div>
+    </div>
+    
+</body>
+</html>

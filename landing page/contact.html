@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact</title>
+    <style>
+       body{
+            padding: 0;
+            margin: 0;
+            background-color: #00d8d6;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+       ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        li a:hover:not(.active) {
+            background-color: #111;
+        }
+        .logo{
+            margin: auto;
+            display: block;
+        }
+        .kontak{
+            text-align: center;
+        }
+        table{
+            width: 60%;
+            padding: 2px;
+            border-spacing: 2px;
+            margin: auto;
+        }
+        h3{
+            text-align: center;
+        }
+        textarea{
+            margin: 0px;
+            height: 84px;
+            width: 311px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img class="logo" src="img/logo.png" alt="logo">
+    </header>
+    <nav>        
+        <ul>
+            <li><a href="home.html">Home</a></li>                
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="contact.html">Contact</a></li>   
+        </ul>            
+    </nav>
+
+    <div class="kontak">
+        <img src="img/contact-us.png" alt="contact">   
+    </div>
+
+    <div>
+        <table>
+            <tr>
+                <td colspan="2"><h3>Hubungi Kami</h3></td>
+            </tr>
+            <tr>
+                <td>Nama Lengkap</td>
+                <td><input type="text" name="nama" size="40" maxlength="50"></td>
+            </tr>
+            <tr>
+                <td>Nomor Telepon</td>
+                <td><input type="tel" name="tlp" size="40" maxlength="50" pattern="[0-9]{4}-[0-9]{4}-[0-9]{4}"></td>
+            </tr>
+            <tr>
+                <td>Alamat Email</td>
+                <td><input type="email" name="email" size="40" maxlength="50"></td>
+            </tr>
+            <tr>
+                <td>Pesan</td>
+                <td><textarea name="pesan" cols="30" rows="5"></textarea></td>
+            </tr>
+            <tr>
+                <td colspan="2" style="text-align: center;">
+                    <input type="submit" value="Proses">
+                    <input type="reset" value="Batal">
+                </td>
+            </tr>
+        </table>
+    </div>
+
+</body>
+</html>

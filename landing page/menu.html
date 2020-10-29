@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <style>
+        body{
+            padding: 0;
+            margin: 0;
+            background-color: #00d8d6;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+       ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        li a:hover:not(.active) {
+            background-color: #111;
+        }
+        table{
+            width: 60%;
+            padding: 2px;
+            border-spacing: 2px;
+            margin: auto;
+        }
+        table, th, td {
+          border: 1px solid black;
+          border-collapse: collapse;
+        }
+        th, td {
+          padding: 8px;
+          text-align: left;
+        }
+        th{
+            text-align: center;
+        }
+        .logo{
+            margin: auto;
+            display: block;
+        }
+        div{
+            padding: 10px;            
+        }
+        .judul{
+            text-align: center;
+        }
+        p{
+            text-align: center;
+            color: #ff3838;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img class="logo" src="img/logo.png" alt="logo">
+    </header>
+    <nav>        
+            <ul>
+                <li><a href="home.html">Home</a></li>                
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="contact.html">Contact</a></li>   
+            </ul>        
+    </nav>
+
+    <div>
+        <table>
+            <tr>
+                <td class="judul" colspan="3"><b>Daftar Produk</b></td>
+            </tr>
+            <tr>
+                <th>No</th>
+                <th>Nama Coffee</th>
+                <th>Harga</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Espresso</td>
+                <td>Rp. 15000</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Cappucino</td>
+                <td>Rp. 20000</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Milk Coffee</td>
+                <td>Rp. 25000</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Vanilla Coffee</td>
+                <td>Rp. 25000</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Americano</td>
+                <td>Rp. 15000</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>Coffee Latte</td>
+                <td>Rp. 20000</td>
+            </tr>
+        </table>
+        <p>Dapatkan diskon 50% dengan syarat harus membeli 3 gelas Vanilla Coffee</p>
+    </div>    
+</body>
+</html>
