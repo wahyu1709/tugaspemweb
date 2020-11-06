@@ -1,0 +1,124 @@
+/* navbar css */
+* {
+    box-sizing: border-box;
+}
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #00d8d6;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover:not(.active) {
+    background-color: #111;
+}
+.logo{
+    margin: auto;
+    display: block;
+}
+/* end navbar */
+
+/* home */
+#home{
+    padding: 23px;
+    background-image: url(img/bg.jpg);
+    background-attachment: fixed;
+    color: white;
+}
+.welcome{   
+    width: 40%;
+    border: 15px solid #5f27cd;
+    border-radius: 10px;
+    padding: 50px;
+    margin: 20px;
+}
+
+p{
+    font-size: 20px;
+}
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid #eb3b5a;
+    border-radius: 10px;
+    float: left;
+    width: 380px;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid black;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+/* end home */
+
+/* contact */
+.kontak{
+    text-align: center;
+}
+table{
+    width: 60%;
+    padding: 2px;
+    border-spacing: 2px;
+    margin: auto;
+}
+h3{
+    text-align: center;
+}
+textarea{
+    margin: 0px;
+    height: 84px;
+    width: 311px;
+}
+/* end contact */
+
+/* menu */
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 8px;
+  text-align: left;
+}
+th{
+    text-align: center;
+}
+
+div{
+    padding: 10px;            
+}
+.judul{
+    text-align: center;
+}
+.promo{
+    text-align: center;
+    color: #ff3838;
+}
+/* end menu */
